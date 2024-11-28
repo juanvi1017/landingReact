@@ -4,6 +4,7 @@
     position: fixed;
     top: 0;
     left: 0;
+    right: 30px;
     width: 100%;
     z-index: 1000;
     padding: 10px 0;
@@ -37,23 +38,8 @@
     color: #007bff;
 }
 
-.social a {
-    margin-left: 15px;
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s;
-}
-
-.social a:hover {
-    color: #007bff;
-}
-
 @media (max-width: 600px) {
     .nav {
-        display: none;
-    }
-
-    .social {
         display: none;
     }
 

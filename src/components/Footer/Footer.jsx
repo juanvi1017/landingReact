@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Text Content */}
         <div className="footer-text">
           <h1>
-            Productive & Customizable For <span>Developers</span> <br />
+            <span>Developers</span> <br />
           </h1>
           <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni.</p>
           <p>
