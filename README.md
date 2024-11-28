@@ -1,10 +1,10 @@
 # React + Vite
-==============================
+
     STACK
 REACT JS 18.3.1
 REACT-SCROLL 1.9.0
 CSS
-===============================
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
