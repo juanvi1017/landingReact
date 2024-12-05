@@ -52,6 +52,7 @@
 }
 
 .hero-image {
+    animation: imageHero 2s ease 0s 1 normal forwards;
     float: right;
     width: 49%;
     height: 400px;
@@ -61,6 +62,18 @@
     max-width: 100%;
     min-height: 400px;
     float: left;
+}
+
+@keyframes imageHero {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 
 @media (max-width: 600px) {

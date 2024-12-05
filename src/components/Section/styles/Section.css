@@ -132,7 +132,37 @@ li {
 }
 
 .images2 img:hover {
-    filter: grayscale(3%) brightness(50%);
+    animation: project 2s cubic-bezier(0.36, 0, 0.66, -0.56) 0s 1 normal forwards;
+}
+
+@keyframes project {
+	0% {
+		transform: scale3d(1, 1, 1);
+	}
+
+	30% {
+		transform: scale3d(1.25, 0.75, 1);
+	}
+
+	40% {
+		transform: scale3d(0.75, 1.25, 1);
+	}
+
+	50% {
+		transform: scale3d(1.15, 0.85, 1);
+	}
+
+	65% {
+		transform: scale3d(0.95, 1.05, 1);
+	}
+
+	75% {
+		transform: scale3d(1.05, 0.95, 1);
+	}
+
+	100% {
+		transform: scale3d(1, 1, 1);
+	}
 }
 
 .section-text-service {
@@ -142,6 +172,7 @@ li {
     max-height: 500px;
 }
 .color-background {
+    display: none;
     background-color: blue;
     color: white !important;
 }
@@ -155,6 +186,19 @@ li {
 .color-background .started {
     margin-top: 20px;
     color: white !important;
+}
+
+
+@keyframes serviceHero {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
 }
 /* tablet */
 
